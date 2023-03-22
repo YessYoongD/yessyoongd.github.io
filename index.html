@@ -31,7 +31,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbar-toggler">
           <a class="navbar-brand" href="#">
-            <img src="imagenes/icono.png" width="50" alt="Logo de la página web">
+            <img src="imagenes/fire.svg" width="50" alt="Logo de la página web">
           </a>
           <ul class="navbar-nav d-flex justify-content-center align-items-center">
             <li class="nav-item">
@@ -124,10 +124,28 @@
       <!-- Galeria de Proyectos -->
       <div class="container text-center proyectos-contenedor">
         <div class="row">
+
           <!-- Proyecto 1 -->
           <div class="col-12 col-md-6 col-lg-4">
             <div class="proyecto">
-              <img src="imagenes/clonaciongoogle.jpg" alt="Proyecto 1">
+              <img src="imagenes/pexels-negative-space-160107.jpg" height="150" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Primer pagina web</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/YessYoongD/myprimerpag " target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://github.com/YessYoongD/myprimerpag" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/pexels-photomix-company-106341.jpg" alt="Proyecto 2">
               <div class="overlay">
                 <p>Clonación de Google</p>
                 <div class="iconos-contenedor">
@@ -141,34 +159,17 @@
               </div>
             </div>
           </div>
-          <!-- Proyecto 2 -->
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="proyecto">
-              <img src="imagenes/proyecto2.png" alt="Proyecto 1">
-              <div class="overlay">
-                <p>Portafolio</p>
-                <div class="iconos-contenedor">
-                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-                    <i class="bi bi-github"></i>
-                  </a>
-                  <a href="#/" target="_blank" rel="noopener noreferrer">
-                    <i class="bi bi-laptop"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
           <!-- Proyecto 3 -->
           <div class="col-12 col-md-6 col-lg-4">
             <div class="proyecto">
-              <img src="imagenes/proyecto3.png" alt="Proyecto 1">
+              <img src="imagenes/pexels-tranmautritam-326502.jpg" alt="Proyecto 3">
               <div class="overlay">
-                <p>Proyecto 3</p>
+                <p>Portafolio</p>
                 <div class="iconos-contenedor">
-                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/YessYoongD/yessyoongd.github.io" target="_blank" rel="noopener noreferrer">
                     <i class="bi bi-github"></i>
                   </a>
-                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://yessyoongd.github.io/" target="_blank" rel="noopener noreferrer">
                     <i class="bi bi-laptop"></i>
                   </a>
                 </div>
@@ -184,41 +185,38 @@
         </button>
       </a>
     </section>
+    <!-- Cursos -->
+     <section id="cursos" class="cursos seccion-clara">
+      <h2 class="seccion-titulo">Cursos</h2>
+      <h3 class="seccion-descripcion">Estos son algunos mis cursos...</h3>
+      <!-- Carrusel -->
+      <div id="cursos-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="cursos-imagen " src="imagenes/DesarrolloWeb.png" alt="Foto DW">
+              <p class="testimonio-texto">Introducción a Desarrollo Web</p>
+            </div>
+          </div>
 
-    <!-- Articulos -->
-    <section class="articulos justify-content-start">
-      <h2 class="seccion-titulo texto-negro">Artículos</h2>
-      <div class="card">
-        <div class="card-header">
-          Más recientes
+          <div class="carousel-item">
+            <div class="container">
+              <img class="cursos-imagen" src="imagenes/ClodComputing.png" alt="Foto CC">
+              <p class="testimonio-texto">Cloud Computing. </p>
+            </div>
+          </div>
         </div>
-        <ul class="list-group list-group-flush">
-          <a href="https://nancynsalazar.medium.com/gu%C3%ADa-r%C3%A1pida-para-construir-tu-portafolio-como-programador-a-9f02daeabb12" target="_blank" rel="noopener noreferrer">
-            <li class="list-group-item">
-              
-            </li>
-          </a>
-          <a href="https://nancynsalazar.medium.com/c%C3%B3mo-ser-un-a-mejor-programador-a-749c1bf98990" target="_blank" rel="noopener noreferrer">
-            <li class="list-group-item">
-              Cómo ser un(a) mejor programador(a)
-            </li>
-          </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
-            <li class="list-group-item">
-              Python leer archivo JSON - cómo cargar JSON desde un archivo y procesar dumps
-            </li>
-          </a>
-          
-          
-        </ul>
-      </div>
-      <a href="#" target="_blank" rel="noopener noreferrer">
-        <button type="button" class="btn btn-info">
-          Ver más artículos
-          <i class="bi bi-arrow-right-circle-fill"></i>
+        <button class="carousel-control-prev" type="button" data-bs-target="#cursos-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
         </button>
-      </a>
-    </section>
+        <button class="carousel-control-next" type="button" data-bs-target="#cursos-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+      
+     </section>
 
     <!-- Testimonios -->
     <section id="testimonios" class="testimonios seccion-clara">
@@ -267,7 +265,7 @@
         <div class="container text-center rectangulo d-flex justify-content-evenly">
           <div class="row">
             <div class="col-12 col-md-4 seccion-titulo">
-              ¡Hablemos!
+              ⟭⟬ ⁷
             </div>
             <div class="col-12 col-md-4 descripcion">
               Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad.
@@ -287,7 +285,9 @@
     
     <!-- Pie de pagina (footer) -->
     <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
-      <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+      <!---src cambiar el icono que esta arriba de la frase si lo puedo imaginar-->
+      <img class="footer-logo" src="imagenes/fire.svg" alt="Logo del portafolio">
+      <!--br sirve para dar salto de linea-->
       <p class="footer-texto text-center">Si lo puedo imaginar,<br>lo puedo programar {💗}</p>
       <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
         <a href="https://twitter.com/daeguyess93" target="_blank" rel="noopener noreferrer">
@@ -304,7 +304,7 @@
         </a>
         
       </div>
-      <div class="derechos-de-autor">Creado con mucho 💗 por Yesbel Angeles (2023) ©️ &#169;</div>
+      <div class="derechos-de-autor">Creado con mucho 💗 por Yesbel Angeles (2023) ©️</div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
